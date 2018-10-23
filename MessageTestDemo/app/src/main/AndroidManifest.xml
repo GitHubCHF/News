@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="test.message.com.messagetestdemo">
+    <!--  网络权限  -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:name=".base.MyApp"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activity.MainActivity">
+        </activity>
+        <activity android:name=".activity.TwoActivity">
+        </activity>
+        <activity android:name=".activity.LoginActivity">
+        </activity>
+        <activity android:name=".activity.SetupActivity"/>
+        <activity android:name=".activity.WebActivity"/>
+        <activity android:name=".activity.WelActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.WelComeActivity"/>
+        <activity android:name=".activity.RegisterActivity"/>
+        <activity android:name=".activity.CodeActivity"/>
+
+    </application>
+    //添加了网络权限
+    <uses-permission android:name="android.permission.INTERNET" />
+</manifest>

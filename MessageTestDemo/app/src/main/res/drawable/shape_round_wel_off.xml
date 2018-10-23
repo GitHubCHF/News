@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval"
+    android:useLevel="false">
+
+    <!-- 引导页下面圆点，未选中 -->
+    <solid android:color="@color/roung_media_bg"/>
+
+</shape>
